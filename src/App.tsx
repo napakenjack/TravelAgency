@@ -12,7 +12,7 @@ import Tour from './pages/Tour';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/TravelAgency">
       <ScrollToTop />
       <div className="min-h-screen flex flex-col">
         <Navbar />
