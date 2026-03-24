@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
@@ -12,7 +12,7 @@ import Tour from './pages/Tour';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/TravelAgency">
+    <HashRouter>
       <ScrollToTop />
       <div className="min-h-screen flex flex-col">
         <Navbar />
