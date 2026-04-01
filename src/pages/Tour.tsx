@@ -199,7 +199,7 @@ export default function Tour() {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <img src="https://picsum.photos/seed/g1/400/400" alt="Gallery" className="w-full h-48 md:h-64 object-cover rounded-xl" referrerPolicy="no-referrer" />
                 <img src="https://picsum.photos/seed/g2/400/400" alt="Gallery" className="w-full h-48 md:h-64 object-cover rounded-xl" referrerPolicy="no-referrer" />
-                <img src="https://picsum.photos/seed/g3/400/400" alt="Gallery" className="w-full h-48 md:h-64 object-cover rounded-xl md:col-span-1 col-span-2" referrerPolicy="no-referrer" />
+                <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=1470&auto=format&fit=crop" alt="Gallery" className="w-full h-48 md:h-64 object-cover rounded-xl md:col-span-1 col-span-2" referrerPolicy="no-referrer" />
                 <img src="https://picsum.photos/seed/g4/800/400" alt="Gallery" className="w-full h-48 md:h-64 object-cover rounded-xl md:col-span-2 col-span-2" referrerPolicy="no-referrer" />
                 <img src="https://picsum.photos/seed/g5/400/400" alt="Gallery" className="w-full h-48 md:h-64 object-cover rounded-xl" referrerPolicy="no-referrer" />
               </div>
